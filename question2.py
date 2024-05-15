@@ -1,6 +1,6 @@
 def Solution(source):
     stack = []
-    result = [' '] * len(source)  # 初始化标记列表，初始值为空格
+    result = [' '] * len(source)
     for i in range(len(source)):
         if source[i] == '(':
             stack.append(i)
